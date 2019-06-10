@@ -3,7 +3,7 @@ const history = require('connect-history-api-fallback');
 
 const app = express();
 
-const port = 3000;
+let port = 3000;
 
 const indexRouter = require('./routes/index');
 
